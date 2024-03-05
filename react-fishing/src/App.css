@@ -1,0 +1,266 @@
+:root{
+    --mainOpacity: rgba(0, 0, 0, 0.55);
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background-image: url("./Images/PublicImages/robson-hatsukami-morgan-qr7tsSwDOg0-unsplash.jpg");
+    opacity: var(--mainOpacity);
+    height: 25em !important;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center 30%; 
+
+}
+
+.navbar-color {
+    background-color: #f4f4f4 ;
+
+}
+
+.fish-box {
+    transition: transform 0.3s ease;
+}
+
+.fish-box:hover {
+    transform: scale(1.1); 
+    z-index: 10; 
+}
+
+.dark-overlay {
+    background-color: rgba(0, 0, 0, 0.35);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+.main-color {
+background-color: #000000 ;
+}
+
+.col-image-left {
+    background-image: url("./Images/PublicImages/hero1.jpeg");
+    height: 25em !important;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: bottom center; 
+}
+
+.col-image-right {
+    background-image: url("./Images/PublicImages/mahimahiHero.jpeg");
+    height: 25em !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+.homepage-carousel-title {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+
+.book-div {
+    width: 480px;
+    height: 384px;
+}
+
+.inactiveLink {
+    pointer-events: none;
+    cursor: default;
+ }
+ .bg-racetrack {
+    background-color: rgb(196, 31, 31);   
+    margin-top: -40px; 
+    border-radius: 50px / 40px;   
+    padding: 10px 20px;            
+    display: inline-block;         
+}
+
+.bg-racetrack-button {      
+    
+    border-radius: 50px / 45px;   
+    padding: 10px 20px;            
+    display: inline-block;  
+    background-color: #e6d523 !important;       
+}
+
+.homepage-text-color {
+
+    color: #6a6661;
+
+
+}
+
+@media (min-width: 768px) {
+    .custom-container {
+      padding-left: 5rem !important; 
+    }
+  }
+  
+
+  @media (max-width: 768px) {
+    .custom-container {
+      align-items: center; 
+      margin: auto; 
+    }
+  }
+
+  body .container .description-input {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+  }
+  
+  body .container .description-input::placeholder {
+    color: rgba(0, 0, 0, 0.5);
+    opacity: 1;
+    
+  }
+
+  .image-area {
+    border: 1px dashed rgb(148, 161, 173);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    margin-top: 20px;
+  }
+  
+  
+  .image-area.empty {
+    width: 100%; 
+    height: 300px; 
+  }
+  
+  .img-fluid {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .profile-container, .details-container {
+    
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+
+  .profile-pic {
+    border: 1px solid rgb(148, 161, 173);
+    border-radius: 50%;
+    width: 150px; 
+    height: 150px; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+  
+  }
+
+  @media (max-width: 768px) {
+    .profile-pic {
+      width: 20vw; 
+      height: 20vw; 
+    }
+  }
+
+  .info-boxes, .details-container {
+    display: flex;
+    flex-basis: 70%; 
+    justify-content: space-around; 
+    
+  }
+
+  .box {
+    flex-grow: 1;
+    text-align: center; 
+
+  }
+
+  @media (max-width: 768px) { 
+    .profile-pic, .box {
+      flex-basis: auto; 
+      padding: 5px; 
+      font-size: 0.8em; 
+    }
+  
+    .info-boxes, .details-container {
+      flex-direction: row; 
+      flex-wrap: nowrap; 
+    }
+  
+  }
+
+  .full-width-line {
+    height: 1px; 
+    background-color: #b6b6b6; 
+    width: 100%; 
+    margin-left: calc(-50vw + 50%); 
+    margin-right: calc(-50vw + 50%); 
+  }
+
+  .user-page-btn {
+
+    border: 2px solid transparent; 
+    outline: none;
+    background-color: #ffffff;
+
+  }
+
+  .user-page-btn:focus, .user-page-btn.selected {
+    border: none;
+    border-bottom: 1px solid #000000;
+  }
+  
+  
+  .user-page-btn:active {
+    border: none;
+    border-bottom: 1px solid #000000;
+    
+  }
+  
+  .catches-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 10px; 
+    margin-left: auto; 
+    margin-right: auto;
+    width: 90%; 
+}
+
+.catch-item img {
+    width: 400px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+@media (max-width: 768px) {
+    .catches-grid {
+        grid-template-columns: repeat(2, 1fr); 
+    }
+}
+
+@media (max-width: 480px) {
+    .catches-grid {
+        grid-template-columns: 1fr; 
+    }
+}
+  .btn-outline-blue {
+    color: #4787cb !important;  
+    border-color: #598fc9 !important; 
+  }
+  
+  .btn-outline-blue:hover {
+    color: #ffffff; 
+    background-color: #007bff; 
+    border-color: #007bff; 
+  }
