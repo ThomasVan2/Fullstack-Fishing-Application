@@ -24,7 +24,8 @@ public class UserController {
         this.userService = userService;
     }
 
-    @GetMapping("/userSub")
+    // The endpoint intended to fetch user information by a unique identifier
+    @GetMapping("/{userSub}")
     public ResponseEntity<?> getUserInfo(@PathVariable String userSub) {
 
         Optional<User> user = userService.getUserByUserId(userSub);

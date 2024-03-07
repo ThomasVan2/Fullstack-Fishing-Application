@@ -31,7 +31,7 @@ public class CatchController {
         this.userService = userService;
     }
 
-
+    // Endpoint to log a catch with an accompanying image. It expects a catch data JSON and an image file.
     @PostMapping("/log")
     public ResponseEntity<?> logCatchWithImage(@RequestParam("catchData") String catchDataJson,
                                                @RequestParam("image") MultipartFile image) {

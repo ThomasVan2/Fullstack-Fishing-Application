@@ -13,6 +13,7 @@ import org.springframework.http.MediaType;
 @RestController
 public class ImageController {
 
+    // Injects the value of `app.upload.dir` property from application.properties, specifying the directory where images are stored.
     @Value("${app.upload.dir}")
     private String uploadDir;
 
@@ -24,7 +25,7 @@ public class ImageController {
             Resource resource = new UrlResource(filePath.toUri());
             if(resource.exists() || resource.isReadable()) {
                 return ResponseEntity.ok()
-                        .contentType(MediaType.IMAGE_JPEG) // You might want to determine the content type dynamically
+                        .contentType(MediaType.IMAGE_JPEG)
                         .body(resource);
             } else {
                 return ResponseEntity.notFound().build();

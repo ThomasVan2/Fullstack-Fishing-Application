@@ -55,6 +55,7 @@ public class CatchService {
 
     }
 
+    // Logs a catch without an image by saving it to the database.
     public Catch logCatch(CatchRequestModel catchRequestModel) {
 
         User user = userRepository.findById(catchRequestModel.getUserId()).orElseThrow(() -> new RuntimeException("User not found"));
@@ -96,6 +97,7 @@ public class CatchService {
     }
 
 
+    // Logs a catch with an image, saving both the catch details and the image file.
     public Catch saveCatchAndImage(CatchRequestModel catchRequestModel, MultipartFile imageFile) throws IOException {
 
         Catch savedCatch = logCatch(catchRequestModel);
@@ -108,11 +110,10 @@ public class CatchService {
             catchImage.setPhotoUrl(photoUrl);
 
 
-            CatchImage savedCatchImage = catchImageRepository.save(catchImage); // Save CatchImage
+            CatchImage savedCatchImage = catchImageRepository.save(catchImage);
 
-            // Assuming there's a setter method or way to associate the CatchImage with the Catch
-            savedCatch.setImage(savedCatchImage); // Associate the image with the catch
-            savedCatch = catchRepository.save(savedCatch); // Save the Catch entity again with its image
+            savedCatch.setImage(savedCatchImage);
+            savedCatch = catchRepository.save(savedCatch);
 
         }
 
@@ -140,13 +141,10 @@ public class CatchService {
         // Save the file on the filesystem
         Files.copy(imageFile.getInputStream(), storagePath);
 
-        // Return a path or URL where the file can be accessed
-
-        // For local testing, this might just be the relative path
-        return filename; // Or construct a URL based on your server's address
+        return filename;
     }
 
-
+    // Retrieves a list of catch records for a given user, transforming them into DTOs.
     public List<CatchDTO> findCatchesByUserId(String userId) {
         User user = userRepository.findById(userId)
                 .orElseThrow(() -> new RuntimeException("User not found with id: " + userId));
@@ -155,6 +153,7 @@ public class CatchService {
         return catches.stream().map(this::convertToDTO).collect(Collectors.toList());
     }
 
+    // Helper method to convert a Catch entity into a CatchDTO.
     private CatchDTO convertToDTO(Catch catchEntity) {
         CatchDTO dto = new CatchDTO();
         dto.setDate(catchEntity.getDate());
@@ -173,8 +172,6 @@ public class CatchService {
         }
         dto.setUserName(catchEntity.getUserId().getUserName());
 
-
-        // Add other fields as necessary
         return dto;
     }
 }
