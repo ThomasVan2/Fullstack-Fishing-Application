@@ -55,7 +55,6 @@ __Species Collection:__ Another section titled "My Species" may display the diff
 
 __Wishlist:__ A section labeled "Want To Catch" suggests functionality where users can list fish species they aspire to catch.
 
-![User profile page](https://github.com/ThomasVan2/Fullstack-Fishing-Application/assets/128740390/773da565-f729-4143-9079-943fdf92d560)
-
+![User profile page](https://github.com/ThomasVan2/Fullstack-Fishing-Application/assets/128740390/c2fa0648-1718-433c-b752-887c7f739b4a)
 
 
