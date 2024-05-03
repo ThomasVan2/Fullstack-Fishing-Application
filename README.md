@@ -13,6 +13,9 @@ As I navigate through new concepts, technologies, and best practices, this proje
 
 By sharing this journey on GitHub, I invite the community to both witness and contribute to the growth of not just a web application, but a developer's journey through the ever-changing and expanding field of technology.
 
+
+*This website is currently under development. I am actively working on accurately mapping fish locations and expanding the database to include more species. The site will be launched once it offers comprehensive and useful content for its users.  For a sneak peek, check out this [screenshot of the current progress](URL_HERE).*
+
 ## Inspiration
 
 Driven by curiosity and the thrill of discovery, this project serves as a bridge between personal passion for fishing and a broader educational purpose. It aims to ignite a similar excitement in others, encouraging them to explore, understand, and share the wonders of fishing and the natural world.
@@ -55,3 +58,5 @@ The Fullstack Fishing Application offers a comprehensive platform that combines 
 - __React.js:__ Ensures a responsive and dynamic frontend, enhancing user interaction and satisfaction.
 - __MySQL Database:__ Offers robust data storage and retrieval capabilities, supporting complex data management needs.
 - __Spring Data JPA & Hibernate:__ Facilitate object-relational mapping and data access layer abstraction, improving code readability and database interactions.
+- 
+
