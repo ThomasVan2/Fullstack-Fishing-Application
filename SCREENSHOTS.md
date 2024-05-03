@@ -1,9 +1,9 @@
 # Screenshots
 
 ## Homepage
-__Navigation Bar:__ Users can navigate the site through links to "Home," "Explore Fish," "Log My Catch," "Profile," and "Logout."
+__Navigation Bar:__ Users can navigate the site through links to "Home," "Explore Fish," "Log My Fish," "Profile," and "Logout."
 
-__Interactive Carousel:__ A carousel highlights "Popular Catches" where users can interact with different fish species and potentially log their own catches.
+__Interactive Carousel:__ A carousel highlights "Popular Fish" where users can interact with different fish species and potentially log their own catches.
 
 __Call-to-Action Buttons:__ Two prominent buttons, "Explore Fish" and "Log My Catch," direct users to discover more fish species and record their fishing activities, respectively.
 
@@ -11,7 +11,8 @@ __Informational Sections:__ Brief descriptions provide insights into the fishing
 
 __Footer Links:__ The footer contains links for additional navigation options like "Home," "Search Fish," and "Services/Help" for user assistance.
 
-![Homepage](https://github.com/ThomasVan2/Fullstack-Fishing-Application/assets/128740390/86290068-8287-4885-90cf-f4f85a730a0d)
+![Homepage](https://github.com/ThomasVan2/Fullstack-Fishing-Application/assets/123026867/c732c526-b251-4fcc-be96-bedc308996f6)
+
 
 ### Fish Explore Page
 
@@ -25,22 +26,26 @@ __Fish Catalog:__ The main area showcases a grid of fish species with illustrati
 
 __Expanding Fish Database:__ Planning to integrate the PISCES database, which will enrich the catalog with detailed ranges for California's native and non-native fish species.
 
-![Exploring Fish Page](https://github.com/ThomasVan2/Fullstack-Fishing-Application/assets/128740390/7a722869-a932-4ec2-8969-28a55e2b505d)
+![Exploring Fish Page](https://github.com/ThomasVan2/Fullstack-Fishing-Application/assets/123026867/ac039906-b331-4acc-82a7-f76a14a2e024)
+
 
 ### Logging Catch Page
 
-__Image Upload:__ A section for users to upload an image of their catch, marked as 'Required'.
+__Image Upload:__ A section for users to upload an image of their fish, marked as 'Required'.
 
 __Fish Details Form:__ Input fields for specifying details about the fish, such as species, weight (in pounds), and size (in inches).
 
-__Date and Location:__ Fields to record the catch's location with a map button, and date and time selectors.
+__Date and Location:__ Fields to record the fish location with a map button, and date and time selectors.
 
-__Description Box:__ A text area for users to add a description or notes about their catch.
+__Description Box:__ A text area for users to add a description or notes about their fish.
 
-__Submit Button:__ A "Submit Catch" button to log the catch details into the system.
+__Submit Button:__ A "Submit Fish" button to log the catch details into the system.
 
 
-![Logging Catch Page](https://github.com/ThomasVan2/Fullstack-Fishing-Application/assets/128740390/cadec8b3-a0cc-404c-a0cf-a5d9c7f2f8e1)
+![Logging Catch Page](https://github.com/ThomasVan2/Fullstack-Fishing-Application/assets/123026867/f4f506b5-7e2e-46c9-9359-fa850b3d682f)
+
+
+
 
 
 # Userprofile Page
