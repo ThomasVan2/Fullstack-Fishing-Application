@@ -14,7 +14,7 @@ As I navigate through new concepts, technologies, and best practices, this proje
 By sharing this journey on GitHub, I invite the community to both witness and contribute to the growth of not just a web application, but a developer's journey through the ever-changing and expanding field of technology.
 
 
-*This website is currently under development. I am actively working on accurately mapping fish locations and expanding the database to include more species. The site will be launched once it offers comprehensive and useful content for its users.  For a sneak peek, check out this [screenshot of the current progress](https://github.com/ThomasVan2/Fullstack-Fishing-Application/blob/master/SCREENSHOTS.md)).*
+*This website is currently under development. I am actively working on accurately mapping fish locations and expanding the database to include more species. The site will be launched once it offers comprehensive and useful content for its users.  For a sneak peek, check out this [screenshot of the current progress](https://github.com/ThomasVan2/Fullstack-Fishing-Application/blob/master/SCREENSHOTS.md).*
 
 ## Inspiration
 
