@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project is born out of a fascination with the aquatic world and a passion for fishing. It aims to explore the diversity of fish species, promoting both education and enthusiasm about fishing as a hobby and learning experience. By combining personal learning goals with community engagement, this initiative seeks to foster a deeper appreciation and understanding of our aquatic environments.
+This project is born out of a fascination with the aquatic world. It aims to explore the diversity of fish species, promoting both education and enthusiasm about fishing as a hobby and learning experience. By combining personal learning goals with community engagement, this initiative seeks to foster a deeper appreciation and understanding of our aquatic environments.
 
 
 ## About the Project
@@ -39,11 +39,11 @@ The Fullstack Fishing Application offers a comprehensive platform that combines 
 
 - __Interactive Fish Species Carousel:__ Powered by the FishRepository, this feature allows users to explore a curated list of fish species. Information about each species is dynamically fetched and displayed, promoting educational engagement.
 
-- __Log Fishing Catches:__ Utilizing the CatchRepository, anglers can log details of their catches, including species, size, location, and date. This functionality enriches the user experience by allowing for a personalized digital logbook.
+- __Log Fish:__ Utilizing the CatchRepository, anglers can log details of their catches, including species, size, location, and date. This functionality enriches the user experience by allowing for a personalized digital logbook.
 
-- __Display User's Catches:__ Through integration with the UserRepository and CatchRepository, users can view a detailed list of their logged catches. This feature highlights the application's ability to provide personalized content, enhancing user engagement.
+- __Display User's Profile:__ Through integration with the UserRepository and CatchRepository, users can view a detailed list of their logged fish. This feature highlights the application's ability to provide personalized content, enhancing user engagement.
 
-- __Image Upload for Catches:__ The application supports uploading images for each catch, using the CatchImageRepository to store and retrieve images. This adds a visual dimension to the catch logs, making the entries more informative and engaging.
+- __Image Upload for Fish:__ The application supports uploading images for each logged fish, using the CatchImageRepository to store and retrieve images. This adds a visual dimension to the logs, making the entries more informative and engaging.
 
 - __RESTful API Design:__ The backend is designed with RESTful principles, facilitating easy and efficient communication between the frontend and backend. This ensures a seamless and dynamic user experience.
 
